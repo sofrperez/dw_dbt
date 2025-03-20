@@ -5,11 +5,12 @@
 }}
 
 select
-customer_id AS cust_key,
-customer_id,
+employee_id as employee_key,
+employee_id,
 first_name,
 last_name,
 email,
 phone_number,
-state
-FROM {{ source('oliver_landing', 'customer')}}
+hire_date,
+position
+FROM {{ source("oliver_landing",'employee')}}
