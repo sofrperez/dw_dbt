@@ -5,7 +5,7 @@
 
 SELECT
 c.cust_key,
-d.date_day,
+d.date_key,
 s.store_key,
 p.product_key,
 employee_key,
