@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: web_analytics_landing
+    database: sofiaperez
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events
+
+
+  - name: samssubs_landing
+    database: sofiaperez
+    schema: samssubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: order
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
