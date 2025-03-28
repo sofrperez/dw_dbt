@@ -14,7 +14,7 @@ sources:
     tables:
       - name: customer
       - name: employee
-      - name: order
+      - name: orderinfo
       - name: orderdetails
       - name: product
       - name: sandwich
